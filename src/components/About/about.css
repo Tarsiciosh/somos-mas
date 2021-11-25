@@ -1,0 +1,51 @@
+.textContainer {
+  padding: 5rem;
+  text-align: center;
+  background-color: #9ac9fb;
+  color: #004182;
+}
+.textContainer h2 {
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.textContainer p {
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+.textContainer p::before {
+  content: '"';
+}
+.textContainer p::after {
+  content: '"';
+}
+.membersContainer {
+  display: flex;
+}
+
+.members {
+  margin-top: 50px;
+}
+.members span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.members h2 {
+  text-align: center;
+  color: #004182;
+}
+
+.memberItem img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid #004182;
+}
+.memberItem {
+  text-align: center;
+  width: 33%;
+}

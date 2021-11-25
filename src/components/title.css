@@ -1,0 +1,24 @@
+.section-title{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-top: 20px;
+}
+.img-fondo{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    object-fit: cover;
+    max-width: 1240px;
+    z-index: -1;
+    border-radius: 4px;
+    filter: opacity(0.5);
+}
+.title{
+    position: absolute;
+    align-self: center;
+    padding: 2px;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}

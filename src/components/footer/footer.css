@@ -1,0 +1,19 @@
+.contenedor-footer{
+    height: 100px;
+}
+
+.lista-logos{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.lista-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+.item.lista{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    }

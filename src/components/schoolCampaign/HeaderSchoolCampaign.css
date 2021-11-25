@@ -1,0 +1,21 @@
+@media (max-width: 663px) {
+    .logo-ong {
+    display: none;
+    }
+
+    .slogan {
+        display: none;
+    }
+}
+  
+@media (max-width: 800px) {
+    .slogan {
+        display: none;
+    }
+}
+
+@media (min-width: 2080px) {
+    .header {
+        background-color: rgb(65, 224, 253, .3);
+    }
+}

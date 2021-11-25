@@ -1,0 +1,19 @@
+.header {
+    max-height: 40px;
+}
+
+.content {
+    min-height: calc(100vh - 200px - 40px);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.footer {
+    max-height: 200px;
+    margin-top: 3rem;
+}
+.contenedor-global{
+    width: 100%;
+}

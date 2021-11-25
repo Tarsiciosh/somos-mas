@@ -1,0 +1,41 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #003a74;
+}
+.logoFooterContainer {
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logoFooterContainer img {
+  height: 100%;
+}
+
+.SocialMediaContainer div a {
+  color: rgb(182, 181, 181);
+}
+.SocialMediaContainer div a:hover {
+  color: rgb(219, 219, 219);
+}
+.SocialMediaContainer div a i {
+  font-size: 1.3em;
+  margin: 5px;
+}
+.toWeb {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.LinksCampañas {
+  color: rgb(182, 181, 181);
+  text-decoration: underline;
+}

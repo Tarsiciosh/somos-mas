@@ -1,0 +1,25 @@
+.selectOption {
+  display: none;
+}
+
+.submitButton {
+  display: block;
+  cursor: pointer;
+  margin: 1rem auto;
+  font-size: 1rem;
+}
+
+.descriptionImage {
+  width: 200px;
+  height: 250px;
+}
+
+.inputImage {
+  display: block;
+  margin: 1rem auto;
+}
+
+.ckEditorForm {
+  width: 800px;
+  margin: 1rem auto;
+}

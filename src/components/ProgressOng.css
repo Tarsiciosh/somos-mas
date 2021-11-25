@@ -1,0 +1,15 @@
+.loader {
+  height: 4px;
+  width: 90%;
+  background-color: rgba(93, 145, 223, 0.363);
+  border-radius: 5px;
+  margin: 20px 30px 0px 30px;
+  overflow: hidden;
+}
+.loader-bar {
+  background-color: #139efa;
+  height: 4px;
+  border-radius: 5px;
+  transition: width 0.4s;
+  /* webkittransition: width 0.5s; */
+}

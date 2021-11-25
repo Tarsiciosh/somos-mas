@@ -1,0 +1,36 @@
+:root {
+    --first-color: #004182;
+    --color-hover: #004182ee;
+    --color-60: #00418260
+  }
+ 
+
+.contenedor-news{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+.contenedor-tarjetas{
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tarjeta{
+    border: 2px solid var(--color-60);
+    box-shadow: 10px 5px 5px var(--color-60);
+}
+.img-tarjeta{
+    height: 60%;
+}
+.titulo-tarjeta{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.parrafo-tarjeta{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -10px;
+}

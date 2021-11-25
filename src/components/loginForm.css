@@ -1,0 +1,61 @@
+:root {
+  --first-color: #004182;
+  --color-hover: #004182ee;
+  --color-60: #00418260;
+}
+
+.contenedor-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  margin-bottom: 12rem;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+.contenedor-label-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.input {
+  border: 2px solid var(--first-color);
+  width: 400px;
+  margin-top: 0;
+  height: 45px;
+}
+.input::placeholder {
+  color: var(--color-60);
+}
+.label {
+  color: var(--first-color);
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+.btn-ingreso {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--first-color);
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.btn-ingreso:hover {
+  background-color: var(--color-hover);
+}
+.error {
+  color: rgb(221, 7, 7);
+  margin-left: 10px;
+}
+.div-link {
+  text-align: center;
+  margin-top: 5px;
+}
+.link {
+  color: var(--first-color);
+  border-bottom: 1px solid var(--first-color);
+  font-weight: bold;
+}
